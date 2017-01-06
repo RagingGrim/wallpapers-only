@@ -17,4 +17,4 @@ compile_curl_custom:
 
 
 run:
-	build/wallpapers-only "wallpapers-only.cfg"
+	build/wallpapers-only "build/wallpapers-only.filter"

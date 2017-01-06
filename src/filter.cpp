@@ -46,5 +46,8 @@ bool Filter::checkTags(std::string buffer){
 		if(buffer.find(it->second) != std::string::npos)
 			tagsPresent++;
 
-	return tagsPresent;
+	if(tagsPresent)
+		return false;
+	else
+		return true;
 }
